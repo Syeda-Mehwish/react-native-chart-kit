@@ -1,6 +1,6 @@
 {
-  "name": "react-native-chart-kit",
-  "version": "6.11.0",
+  "name": "Syeda-Mehwish/react-native-chart-kit",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/react-native": "^0.62.13",
     "babel-eslint": "10.x",
