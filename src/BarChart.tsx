@@ -205,7 +205,8 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
             
           }
           y={((baseHeight - barHeight) / 4) * 3 + paddingTop - 1}
-          fill={this.props.chartConfig.color(0.6)}
+          fill={data?.length-1==i?'#0F85A3':this.props.chartConfig.color(1)}
+         dy={data[i]>15?24:0}
           fontSize="12"
           textAnchor="middle"
         >
